@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **NYT API Calls**
 
-## Available Scripts
+#### Author: **Jessica Hvozdovich and Dan Merys**
+#### July 20, 2020
 
-In the project directory, you can run:
+### Description
 
-### `npm start`
+_This application uses React, Redux, and Thunk to make async API calls using middlware. It displays headlines and descriptions of top articles from the New York Times API._
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Instructions for use:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Open Terminal (macOS) or PowerShell (Windows)
+2. To download the project Directory to your desktop enter the following commands:
+```
+cd Desktop
+git clone https://github.com/dkmery/api-practice.git
+cd api-practice
+```
+3. To view the downloaded files, open them in a text editor or IDE of your choice.
+* if you have VSCode for example, when your terminal is within the main project Directory you can open all of the files with the command:
+```
+code .
+```
+5. Download node and node package manager if they are not already installed on your device. You can find further instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript-8d3b52cf-3755-481d-80c5-46f1d3a8ffeb/installing-node-js-14f2721a-61e0-44b3-af1f-73f17348c8f4).
+5. Run npm install in your terminal to download the necessary dependencies, plugins, and modules.
+```
+npm install
+```
+6. Acquire an API key from the [New York Times Developer Site](https://developer.nytimes.com/get-started).
+7. Create a .env file in the top level of your directory and add the code:
+```
+REACT_APP_API_KEY=[YOUR API KEY HERE]
+```
+8. The command npm run start will build and open the compiled code in a browser of your choice using a local host.
+```
+npm run start
+```
 
-### `npm test`
+### Known Bugs
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No bugs have been identified at the time of this update.
 
-### `npm run build`
+### Support and Contact Information
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please contact me with any suggestions or questions at jhvozdovich@gmail.com. Thank you for your input!  
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/react-api/issues) here on GitHub._
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* JavaScript
+* React
+* Redux
+* Thunk
+* JSX
+* HTML
+* Git and GitHub
 
-### `npm run eject`
+### Specs
+| Spec | Input | Output |
+| :------------- | :------------- | :------------- |
+| **User can view New York Times top articles** | User Input:"localhost:3000" | Output: “Article List is displayed" |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This software is licensed under the MIT license.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2020 **_Jessica Hvozdovich and Dan Merys_**
